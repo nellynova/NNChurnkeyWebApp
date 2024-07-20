@@ -24,8 +24,11 @@
       - As Churnkey grows, you may also consider implementing a chatbot to handle increased customer interactions and provide instant responses to inquiries. 
 
 5. Screenshots/Video of my application
-   - [Watch the video](https://github.com/nellynova/NNChurnkeyWebApp/blob/main/Natalia%20Novegil%20-%20Recording.mp4)
-   - ### Embedded Video
-   <video width="320" height="240" controls>
-     <source src="https://github.com/nellynova/NNChurnkeyWebApp/blob/main/Natalia%20Novegil%20-%20Recording.mp4" type="video/mp4">
-   </video>
+   - [Direct link to my recording in my repository](https://github.com/nellynova/NNChurnkeyWebApp/blob/main/Natalia%20Novegil%20-%20Recording.mp4)
+   - Screenshots
+      - ![image](https://github.com/user-attachments/assets/27702718-9f79-4618-8116-afaa84c140ec)
+      - ![image](https://github.com/user-attachments/assets/634acc50-089a-4682-a5eb-9fbb4707f044)
+      - ![image](https://github.com/user-attachments/assets/5addda72-59fc-4934-9c31-841c597df386)
+
+
+
