@@ -6,7 +6,8 @@
    - Steps to Run the Project
       - Open the solution file named ‘NNWebApplication.sln’ 
       - In Visual Studio, select the solution configuration (Debug/Release)
-      - Press F5 or click the green "Start" button at the top to build and run the application
+      - Press F5 or click the green "Start" button at the top to build and run the application ![image](https://github.com/user-attachments/assets/fa5a7fe2-119b-4cbb-9942-08d246c6dbe7)
+
    - Navigating the Application
       - Home Page
          - Once the application is running, the home page should appear first
