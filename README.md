@@ -2,7 +2,7 @@
 1. Instructions on how to run the code locally
    - Hi! Thank you for taking the time to review my assessment. Follow the steps below to review my code:
    - Prerequisites
-      - Ensure you have Visual Studio installed (I created my web app in Visual Studio 2022)
+      - Ensure you have Visual Studio installed (I created my ASP.NET Core Web App in Visual Studio 2022)
    - Steps to Run the Project
       - Open the solution file named ‘NNWebApplication.sln’ 
       - In Visual Studio, select the solution configuration (Debug/Release)
