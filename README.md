@@ -2,7 +2,7 @@
 1. Instructions on how to run the code locally
    - Hi! Thank you for taking the time to review my assessment. Follow the steps below to review my code:
    - Prerequisites
-      - Ensure you have Visual Studio installed
+      - Ensure you have Visual Studio installed (I created my web app in Visual Studio 2022)
    - Steps to Run the Project
       - Open the solution file named ‘NNWebApplication.sln’ located in the repository directory
       - In Visual Studio, select the solution configuration (Debug/Release)
@@ -24,4 +24,8 @@
       - As Churnkey grows, you may also consider implementing a chatbot to handle increased customer interactions and provide instant responses to inquiries. 
 
 5. Screenshots/Video of my application
-   - ...
+   - [Watch the video](https://github.com/nellynova/NNChurnkeyWebApp/blob/main/Natalia%20Novegil%20-%20Recording.mp4)
+   - ### Embedded Video
+   <video width="320" height="240" controls>
+     <source src="https://github.com/nellynova/NNChurnkeyWebApp/blob/main/Natalia%20Novegil%20-%20Recording.mp4" type="video/mp4">
+   </video>
