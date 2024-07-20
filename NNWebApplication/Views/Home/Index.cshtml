@@ -1,0 +1,59 @@
+﻿@{
+	ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+	<h1 class="display-4">Welcome to Netflix (hypothetically)</h1>
+	<button id="btnAbout" class="btn btn-primary m-2" type="button" title="Click to learn more about us" onclick="switchTab(this.id)">About Us</button>
+	<button id="btnBrowse" class="btn btn-primary m-2" type="button" title="Click to browse shows" onclick="switchTab(this.id)">Browse</button>
+	<a href="~/Home/AccountManagement" target="_blank"> <button class="btn btn-primary m-2" type="button" title="Click to manage your account">Manage Account</button> </a>
+	<div class="homeTabs">
+		<div id="aboutUs" style="display:none">
+			Welcome! <br />
+			Watch your favorite shows and movies that cater to every taste and preference. <br />
+			Enjoy a seamless streaming experience starting at only $5.99 a month!
+		</div>
+		<div id="browseShows">
+			<div class="p-3" style="background-color:black; color:white; border-radius: 15px;">
+				<h4>Top 10 TV Shows in the U.S. Today</h4>
+				<div class="slideshow">
+					<div class="slide">
+						<h5>Keeping Up With Science</h5>
+						<em>Discover the latest discoveries in science</em><br />
+						<img src="~/images/img1.jpg" /><br />
+						<button type="button" class="btn btn-success m-2">Watch Now</button>
+					</div>
+					<div class="slide">
+						<h5>Popcorn Zone</h5>
+						<em>Friends stumble into a theater where movies come to life</em><br />
+						<img src="~/images/img2.jpg" /><br />
+						<button type="button" class="btn btn-success m-2">Watch Now</button>
+					</div>
+					<div class="slide">
+						<h5>Starlight Trails</h5>
+						<em>Emma embarks on a journey to find herself and find love</em><br />
+						<img src="~/images/img3.jpg" /><br />
+						<button type="button" class="btn btn-success m-2">Watch Now</button>
+					</div>
+					<div class="slide">
+						<h5>Ocean's Fury</h5>
+						<em>A fearless warrior of the sea defends humanity from an ancient sea monster</em><br />
+						<img src="~/images/img4.jpg" /><br />
+						<button type="button" class="btn btn-success m-2">Watch Now</button>
+					</div>
+					<div class="slide">
+						<h5>Sunset Whispers</h5>
+						<em>Meet Sophie as she spends a summer by the French sea, unraveling the complexities of her relationships</em><br />
+						<img src="~/images/img5.jpg" /><br />
+						<button type="button" class="btn btn-success m-2">Watch Now</button>
+					</div>
+				</div>
+				<div class="p-3">
+					<button class="btn btn-light" onclick="switchSlide(-1)">&#10094;</button>
+					&nbsp;&nbsp;
+					<button class="btn btn-light" onclick="switchSlide(1)">&#10095;</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
